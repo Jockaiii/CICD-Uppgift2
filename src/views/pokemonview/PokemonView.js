@@ -6,7 +6,6 @@ import RoutingPaths from '../../routes/RoutingPaths'
 import PokeAPIService from '../../shared/api/service/PokeAPIService'
 import { ScoreContext } from './../../shared/provider/ScoreProvider'
 import StringUtils from './../../utils/StringUtils'
-
 import WhosThatPokemonImg from '../../shared/resources/images/whos-that-pokemon.bmp'
 import LoadingImg from '../../shared/resources/images/pokeball.png'
 import { SoundAnswer } from '../../components/soundAnswer/SoundAnswer'

@@ -10,7 +10,7 @@ div.whos-that-pokemon-container {
 
 div.secret-pokemon {
   grid-area: "secret-pokemon";
-  width: 454px;
+  width: 464px;
   height: 340px;
 }
 

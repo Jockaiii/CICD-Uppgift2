@@ -6,11 +6,11 @@ export const ThemeContext = createContext()
 export const ThemeProvider = (props) => {
 	const [theme, setTheme] = useState(themeEnum.DARK)
 
-	return(
+	return (
 		<ThemeContext.Provider value={{
-			theme: [theme, setTheme]
+			theme: [theme, setTheme],
 		}}>
 			{props.children}
-	</ThemeContext.Provider>
+		</ThemeContext.Provider>
 	)
 }

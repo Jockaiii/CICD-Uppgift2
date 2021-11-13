@@ -7,6 +7,7 @@ Can you name the mysterious Pokémon?
 - git clone https://github.com/Jockaiii/CICD-Uppgift2
 - cd project-folder-name
 - npm install
+- npm install use-sound
 - npm start
 
 ## Project Plan: 

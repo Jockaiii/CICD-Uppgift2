@@ -10,17 +10,31 @@ export const ThemeSwitch = () => {
 	const switchTheme = () => {
 		var element = document.body;
 		element.classList.toggle("dark-mode")
-		if(theme === themeEnum.LIGHT){
+		if(theme === themeEnum.LIGHT || theme === themeEnum.MIDNIGHT){
 			setTheme(themeEnum.DARK)
-			setButtonText (themeEnum.DARK)
+			setButtonText(themeEnum.DARK)
 		}
-		else{
+		else {
 			setTheme(themeEnum.LIGHT)
 			setButtonText(themeEnum.LIGHT)
 		}
 	}
 
+	/*const switchThemeTwo = () => {
+		var element = document.body;
+		element.classList.toggle("midnight-mode")
+		if(theme == themeEnum.LIGHT || theme == themeEnum.DARK){
+			setTheme(themeEnum.MIDNIGHT)
+		}
+		else {
+			setTheme(themeEnum.LIGHT)
+		}
+
+	}*/
+
 	return (
+		<div>
 		<button className= "theme-button input" onClick={() => switchTheme()}>{buttonText} Theme</button>
+		</div>
 	)
 }

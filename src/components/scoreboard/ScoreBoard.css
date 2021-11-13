@@ -18,6 +18,7 @@ div.score-container {
 
 .score-header {
   grid-area: score-header;
+  margin: 12px;
 }
 
 .correct {

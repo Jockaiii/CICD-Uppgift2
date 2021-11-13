@@ -32,6 +32,11 @@ h2 {
 
 h3 {
   color: rgb(255, 101, 25);
+  margin: 2px;
+}
+
+h5 {
+  margin: 5px;
 }
 
 .input{
